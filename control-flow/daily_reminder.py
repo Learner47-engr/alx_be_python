@@ -6,13 +6,13 @@ base_reminder = ""
 
 match priority:
     case "high":
-        base_reminder = f"Reminder: '{task}' is a high priority task"
+        base_reminder = f"'{task}' is a high priority task"
     case "medium":
-        base_reminder = f"Reminder: '{task}' is a medium priority task"
+        base_reminder = f"'{task}' is a medium priority task"
     case "low":
-        base_reminder = f"Reminder: '{task}' is a low priority task"
+        base_reminder = f"'{task}' is a low priority task"
     case _:
-        base_reminder = f"Reminder: '{task}' has an unrecognized priority. Please set it correctly."
+        base_reminder = f"'{task}' has an unrecognized priority. Please set it correctly."
 
 final_reminder = base_reminder
 
@@ -23,4 +23,4 @@ elif time_bound == "no":
 else:
     final_reminder += " (Time-bound status unclear.)"
 
-print(final_reminder)
+print("Reminder:",final_reminder)
