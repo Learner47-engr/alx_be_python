@@ -2,7 +2,7 @@ def display_menu():
     """
     Displays the menu options to the user.
     """
-    print("\n--- Shopping List Manager ---")
+    print("Shopping List Manager")
     print("1. Add item")
     print("2. Remove item")
     print("3. View list")
