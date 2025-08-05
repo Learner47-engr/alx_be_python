@@ -1,3 +1,13 @@
+def display_menu():
+    """
+    Displays the menu options to the user.
+    """
+    print("\n--- Shopping List Manager ---")
+    print("1. Add item")
+    print("2. Remove item")
+    print("3. View list")
+    print("4. Exit")
+
 def shopping_list_manager():
     """
     Manages a shopping list by allowing users to add, remove, view, and exit.
@@ -5,12 +15,8 @@ def shopping_list_manager():
     shopping_list = []
 
     while True:
-        print("\n--- Shopping List Manager ---")
-        print("1. Add item")
-        print("2. Remove item")
-        print("3. View list")
-        print("4. Exit")
-
+        display_menu()
+        
         choice = input("Enter your choice: ")
 
         if choice == '1':
