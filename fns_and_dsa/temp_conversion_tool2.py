@@ -47,5 +47,3 @@ if __name__ == "__main__":
                 break
         except ValueError:
             raise ValueError("Invalid temperature. Please enter a numeric value.")
-        except Exception as e:
-            print(f"An unexpected error occurred: {e}")
