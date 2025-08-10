@@ -21,7 +21,7 @@ def safe_divide(numerator, denominator):
 
         # Perform the division
         result = num / den
-        return f"Result: {result}"
+        return f"The result of the division is {result}"
 
     except ValueError:
         # Catch non-numeric input
